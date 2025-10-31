@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+  height: 100px;
+}
+#todo {
+  display: flex;
+  font-size: 26px;
+}
+.poiskovik {
+  display: flex;
+  border: 1px #6c63ff solid;
+  display: flex;
+  height: 35px;
+  img {
+    display: flex;
+    width: 21px;
+    height: 21px;
+    justify-content: center;
+  }
+}
+#poisk {
+  input {
+    border: none;
+    width: 510px;
+    color: gray;
+    padding: 10px;
+  }
+  input:focus {
+    outline: none;
+  }
+}
+
+.container {
+  width: 750px;
+  height: 135px;
+  display: flex;
+  justify-content: space-between;
+}
+#btn-all {
+  display: flex;
+  background-color: #6c63ff;
+  width: 8vw;
+  height: 37px;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+  gap: 17px;
+  color: white;
+}
+#btn-night {
+  background-color: #6c63ff;
+  width: 38px;
+  height: 38px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
